@@ -150,7 +150,8 @@ Vercel 的 Serverless 函数不能把本地 SQLite 文件当作持久存储。�
 | `npm run format` | Prettier 格式化 |
 | `npm run format:check` | Prettier 格式检查（不写入） |
 | `npm run docker:sync-from-turso` | 手动用已备份的 Turso 快照替换 Docker SQLite 数据 |
-| `npm run test:sync` | 运行 Turso 到 Docker 同步命令的测试 |
+| `npm test` | 运行 Vitest 测试套件 |
+| `npm run test:watch` | 以监听模式运行 Vitest |
 | `npm run typecheck` | TypeScript 类型检查 |
 | `npx prisma migrate dev` | 创建并应用数据库迁移 |
 | `npx prisma studio` | 打开数据库可视化界面 |

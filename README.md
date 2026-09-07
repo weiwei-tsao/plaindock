@@ -149,7 +149,8 @@ For existing local SQLite data, back up the database first, import it with Turso
 | `npm run format` | Prettier format |
 | `npm run format:check` | Prettier check (no write) |
 | `npm run docker:sync-from-turso` | Manually replace Docker SQLite data with a backed-up Turso snapshot |
-| `npm run test:sync` | Run tests for the Turso-to-Docker sync command |
+| `npm test` | Run the Vitest test suite |
+| `npm run test:watch` | Run Vitest in watch mode |
 | `npm run typecheck` | TypeScript type check |
 | `npx prisma migrate dev` | Create and apply database migrations |
 | `npx prisma studio` | Browse the database via GUI |
