@@ -18,13 +18,14 @@ npm run lint:fix         # ESLint auto-fix
 npm run format           # Prettier format src/
 npm run format:check     # Prettier check (no write)
 npm run docker:sync-from-turso  # Manual Turso -> Docker SQLite import with backup
-npm run test:sync        # Tests for the manual Docker sync command
+npm test                 # Run Vitest test suite
+npm run test:watch       # Vitest in watch mode
 npm run typecheck        # TypeScript type check (tsc --noEmit)
 npx prisma migrate dev   # Create/apply migrations during development
 npx prisma studio        # GUI for browsing the SQLite database
 ```
 
-No test runner is configured.
+Vitest is the test runner (`vitest.config.ts`). Test files live alongside the code they cover (`*.test.mjs`/`*.test.ts`).
 
 ## Environment Variables
 
